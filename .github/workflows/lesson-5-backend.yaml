@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4 
       - name: PyCharm Python Security Scanner
-      uses: tonybaloney/pycharm-security@1.25.1
+        uses: tonybaloney/pycharm-security@1.25.1
   build_and_test:
     needs: [security_test]
     runs-on: ubuntu-latest
